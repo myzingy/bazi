@@ -1,0 +1,27 @@
+{
+    "name": "vking/bazi",
+    "description": "chinese : date => bazi",
+    "minimum-stability":"stable",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wangfan",
+            "email": "251941666@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+	    "overtrue/chinese-calendar":"*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vking\\Bazi\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Vking\\Bazi\\Tests\\": "tests/"
+        }
+    }
+}
