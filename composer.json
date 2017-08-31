@@ -1,6 +1,7 @@
 {
     "name": "vking/bazi",
-    "description": "chinese : date => bazi",
+    "description": "中国文化：用日期及时辰计算出生辰八字，八字命盘",
+    "keywords": ["chinese", "bazi", "八字", "命盘"],
     "minimum-stability":"stable",
     "type": "library",
     "license": "MIT",
