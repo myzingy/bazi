@@ -1,20 +1,21 @@
-#八字命盘
+# 八字命盘
 
-目前功能
+### 目前功能
 
-    根据阳历或阴历计算八字，根据八字天干地支显示命盘五行
+- 根据阳历或阴历计算八字，根据八字天干地支显示命盘五行
 
-后期功能
+### 后期功能
 
-    1，命盘得分（命硬、命弱判断）
-    2，喜神
-    。。。
+- 1，命盘得分（命硬、命弱判断）
+- 2，喜神
+- 。。。
     
-##Installing
-    
+## Installing
+```
     $ composer require vking/bazi -vvv
-##Usage
-    
+```
+## Usage
+```php
     use Vking\Bazi;
     //阳历2017年08月31日 12时出生
     //$fate = new Fate(1234567890);//支持时间戳方式
@@ -30,8 +31,9 @@
     //$fate = new Fate("2017-08-31-12",true,true);
     $fate->set("2017-08-31-12",true,true);
     var_dump($fate->get());
-    
-##Return
+```
+## Return
+```
     {
         "lunar_year": 2017,                 // 农历年
         "lunar_month": 4,                   // 农历月
@@ -63,7 +65,7 @@
             [辰] => 土
         ]
     }
-    
-##License
+```    
+## License
 
     MIT
